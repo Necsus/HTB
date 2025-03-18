@@ -4,4 +4,4 @@ TCP
 nmap -sV -sC -Pn -oA {name} {host}
 
 UDP
-nmap -sV -sC -Pn -oA {name} {host}
+nmap -sU --top-ports 100 -Pn -oA {name} {host}
